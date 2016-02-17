@@ -44,6 +44,8 @@ gulp.task('html', ['inject', 'partials'], function () {
     .pipe($.rev())
     .pipe(jsFilter)
     .pipe($.sourcemaps.init())
+    // both these fuckers were throwing errors so I ditched them
+    // would be nice to fix them as code is enormous
     // .pipe($.ngAnnotate())
     // .pipe($.uglify({ preserveComments: $.uglifySaveLicense })).on('error', conf.errorHandler('Uglify'))
     .pipe($.sourcemaps.write('maps'))
