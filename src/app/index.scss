@@ -14,8 +14,21 @@ $body-bg:               #fbeed3 !default;
 // endbower
 
 .youtubeIframe {
-  // width:560px;
+  display:inline-block;
+  width:33%;
+  background-color:$body-bg;
   // height:315px;
+}
+.fuck {
+  color: #d9bfa0;
+  font-family: helvetica, arial;
+}
+.pageTitle {
+  font-family: impact;
+  font-weight:1000;
+}
+a {
+  color:#d9bfa0;
 }
 
 /**
