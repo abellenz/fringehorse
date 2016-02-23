@@ -20,10 +20,29 @@ $body-bg:               #fbeed3 !default;
   @media (max-width: $screen-sm-min) {
     width:50%;
   }
+  margin-left:2px;
+  margin-right:0;
+  margin-top:2px;
+}
+.fuckHorse {
+  display:inline-block;
+  width:33%;
+  background-color:$body-bg;
+  @media (max-width: $screen-sm-min) {
+    width:50%;
+  }
+}
+.smallFuckHorse {
+  display:inline-block;
+  width:20%;
+  background-color:$body-bg;
+  @media (max-width: $screen-sm-min) {
+    width:25%;
+  }
 }
 .fuck {
   color: #d9bfa0;
-  font-family:baskerville;
+  font-family:futura;
   font-size:100px;
 }
 .pageTitle {
