@@ -17,11 +17,14 @@ $body-bg:               #fbeed3 !default;
   display:inline-block;
   width:33%;
   background-color:$body-bg;
-  // height:315px;
+  @media (max-width: $screen-sm-min) {
+    width:50%;
+  }
 }
 .fuck {
   color: #d9bfa0;
-  font-family: helvetica, arial;
+  font-family:baskerville;
+  font-size:100px;
 }
 .pageTitle {
   font-family: impact;
