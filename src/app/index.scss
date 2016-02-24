@@ -15,10 +15,10 @@ $body-bg:               #fbeed3 !default;
 
 .youtubeIframe {
   display:inline-block;
-  width:33%;
+  width:32%;
   background-color:$body-bg;
   @media (max-width: $screen-sm-min) {
-    width:50%;
+    width:100%;
   }
   margin-left:2px;
   margin-right:0;
@@ -32,12 +32,20 @@ $body-bg:               #fbeed3 !default;
     width:50%;
   }
 }
-.smallFuckHorse {
+.smallFuckHorse, .smallFuckHorseTall {
   display:inline-block;
   width:20%;
   background-color:$body-bg;
   @media (max-width: $screen-sm-min) {
     width:25%;
+  }
+}
+.tinyFuckHorse {
+  display:inline-block;
+  width:5%;
+  background-color:$body-bg;
+  @media (max-width: $screen-sm-min) {
+    width:10%;
   }
 }
 .fuck {

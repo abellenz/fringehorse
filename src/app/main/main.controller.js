@@ -15,6 +15,8 @@
         var $mobileIframes = $('.mobileIframe');
         var $fuckHorses = $('.fuckHorse');
         var $smallFuckHorses = $('.smallFuckHorse');
+        var $smallFuckHorseTalls = $('.smallFuckHorseTall');
+        var $tinyFuckHorses = $('.tinyFuckHorse');
         $youTubeIframes.each( function(index, value) {
           var width = $(this).width();
           $(this).css('height', (0.5625 * width));
@@ -31,6 +33,14 @@
           var width = $(this).width();
           $(this).css('height', (0.75 * width));
         });
+        $smallFuckHorseTalls.each( function(index, value) {
+          var width = $(this).width();
+          $(this).css('height', (0.90 * width));
+        });
+        $tinyFuckHorses.each( function(index, value) {
+          var width = $(this).width();
+          $(this).css('height', (0.75 * width));
+        });
       });
       $log.info('fuck you');
     };
@@ -40,7 +50,7 @@
         $log.info('this is awful');
         reFuckinSize();
         runResizer();
-      }, 1000);
+      }, 3000);
     };
     runResizer();
 
