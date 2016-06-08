@@ -8,6 +8,8 @@
   /** @ngInject */
   function MainController($scope, $timeout, $log, $window, webDevTec) {
 
+    $scope.grid = false;
+
     $log.info('I hate you');
     var reFuckinSize = function() {
       $(function() {
