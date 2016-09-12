@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope, $timeout, $log, $window, webDevTec) {
+  function MainController($scope, $timeout, $log, $window) {
 
     $scope.grid = false;
 
